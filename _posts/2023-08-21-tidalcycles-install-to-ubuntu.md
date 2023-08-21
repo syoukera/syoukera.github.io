@@ -23,7 +23,6 @@ sidebar: []
 # 動作時の環境
 
 - Ubuntu 22.04
-- M-Audio Audiophile USB
 
 # インストール
 
@@ -42,17 +41,4 @@ VSCodeを使用したい場合には以下のコマンドを実行すること�
 
 ```bash
 sudo ansible-playbook --connection=local -i localhost, tidal_vscode.play.yml
-```
-
-# オーディオ出力先の変更
-
-デフォルトのスピーカーであれば上記の設定で音が鳴るのだが、オーディオインターフェースなどに出力先を変更するためには別途設定が必要と鳴る。  
-WindowsやMacであれば[公式の記事](https://userbase.tidalcycles.org/Choosing_an_output_device.html)にあるように`Sever.default.options.outDevice_`を指定することによってオーディオの出力先を変更可能だが、Linuxにおいては使用できない。  
-[SuperColliderのIssue](https://github.com/supercollider/supercollider/issues/4373)で知ったが、Linuxにおいてはオーディオハードウェアの選択はJACKによって行われているらしく、JACK上で設定する必要があるとのこと。  
-
-JACKにはGUIのパッケージがいくつかあるので、今回はQJackCtlを使用する。  
-インストールには以下のコマンドをターミナルで実行する  
-
-```bash
-sudo apt install qjackctl
 ```
