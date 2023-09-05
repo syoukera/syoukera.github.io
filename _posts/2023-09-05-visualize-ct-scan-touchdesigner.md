@@ -36,7 +36,7 @@ conda install -c conda-forge pydicom
 
 Edit >> PreferencesからPythonのパスを指定します．
 
-![image.png](/assets/images/2023-09-05-fig1.png)
+![68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3236373138332f35396161386161322d636665392d323061622d613531662d3232663462633237623232322e706e67](https://github.com/syoukera/syoukera.github.io/assets/39158849/a98a7059-1571-4b77-9bb2-a8e77aac3b44)
 
 私の環境では以下のパスを登録しました．これでTouchDesignerで実行するPythonでpydicomを使用できるようになります．
 
@@ -49,7 +49,7 @@ C:/Users/[ユーザー名]/Miniconda3/envs/dicom/Lib/site-packages
 あとはTouchDesigner上でPythonスクリプトを動かしていきます．
 今回のプロジェクトでは以下のように，①dicomという名前のText DATでDCMクラスを作成し，②作成したDCMクラスをScript CHOPで呼び出してCHOPに書き出します．最後にCHOP to TOPを使用して変換することによって毎フレームの断面図を取得しています．
 
-![image.png](/assets/images/2023-09-05-fig2.png)
+![68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3236373138332f30616137383865332d316333632d343866372d336439322d6336323633373765333336302e706e67](https://github.com/syoukera/syoukera.github.io/assets/39158849/852243d7-4f87-43cd-81b7-dee257671a54)
 
 ## dicomクラスを作成
 
