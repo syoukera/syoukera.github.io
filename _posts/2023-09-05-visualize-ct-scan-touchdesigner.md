@@ -5,7 +5,7 @@ subtitle: Visualise CT scan data using TouchDesigner
 author: syoukera
 categories: touchdesigner
 banner:
-  video: https://vjs.zencdn.net/v/oceans.mp4
+  video: https://github.com/syoukera/syoukera.github.io/assets/39158849/4d146767-4e51-4ea8-8797-36b83a00bc42
   loop: true
   volume: 0.8
   start_at: 8.5
@@ -144,3 +144,5 @@ def onCook(scriptOp):
 depthをnoiseで指定し，xyzにスライスした３断面を同時に表示すると以下のようにCTスキャンデータをTouchDesigner上で可視化することができました．
 
 ![2023-09-05_mov1](https://github.com/syoukera/syoukera.github.io/assets/39158849/268247fa-188b-46b5-9377-d445ff8205a0)
+
+
