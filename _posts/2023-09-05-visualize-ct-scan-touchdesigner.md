@@ -16,7 +16,7 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: tidalcycles ubuntu
+tags: touchdesigner pydicom
 sidebar: []
 ---
 CTスキャンデータはdcmという拡張子であらわされており，病院でCTやMRIのスキャンを行った際に受け取るDVDを開けるとこのデータが保存されています．
