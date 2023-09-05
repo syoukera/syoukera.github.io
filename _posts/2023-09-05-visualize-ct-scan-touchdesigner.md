@@ -141,3 +141,6 @@ def onCook(scriptOp):
 
 ## 3断面を同時に描画する
 
+depthをnoiseで指定し，xyzにスライスした３断面を同時に表示すると以下のようにCTスキャンデータをTouchDesigner上で可視化することができました．
+
+![image.png](/assets/images/2023-09-05-mov1.mov)
