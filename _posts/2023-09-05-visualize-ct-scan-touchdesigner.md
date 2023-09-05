@@ -49,7 +49,7 @@ C:/Users/[ユーザー名]/Miniconda3/envs/dicom/Lib/site-packages
 あとはTouchDesigner上でPythonスクリプトを動かしていきます．
 今回のプロジェクトでは以下のように，①dicomという名前のText DATでDCMクラスを作成し，②作成したDCMクラスをScript CHOPで呼び出してCHOPに書き出します．最後にCHOP to TOPを使用して変換することによって毎フレームの断面図を取得しています．
 
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/267183/0aa788e3-1c3c-48f7-3d92-c626377e3360.png)
+![image.png](/assets/images/2023-09-05-fig2.png)
 
 ## dicomクラスを作成
 
