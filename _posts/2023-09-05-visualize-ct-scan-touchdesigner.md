@@ -36,7 +36,7 @@ conda install -c conda-forge pydicom
 
 Edit >> PreferencesからPythonのパスを指定します．
 
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/267183/59aa8aa2-cfe9-20ab-a51f-22f4bc27b222.png)
+![image.png](/assets/images/2023-09-05-fig1.png)
 
 私の環境では以下のパスを登録しました．これでTouchDesignerで実行するPythonでpydicomを使用できるようになります．
 
